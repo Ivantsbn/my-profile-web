@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>Freelancer</strong> portfolio</a>
+
+                <button class="dark-mode-btn">
+                    <img src="./img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="./img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+                </button>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Home</a></li>
+                    <li class="nav-list__item"><a href="./projects.html" class="nav-list__link">Projects</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__title">
+            <canvas id="canvasOne" width="900" height="500">
+            </canvas><br>
+                <strong>Hi, my name is <em>Ivan</em></strong><br>
+                and I'm full stack developer
+            </h1>
+            <div class="header__text">
+                <p>I will create custom website for you.</p>
+            </div>
+            <a href="/projects.html" class="btn">My projects</a>
+        </div>
+    </header>
+    
+    <main class="section">
+        <div class="container">
+
+                <ul class="content-list">
+                    <li class="content-list__item">
+                        <h2 class="title-2">Frontend</h2>
+                        <p>ReactJS, JavaScript, TypeScript, HTML, CSS, BootStrap, TailwindCSS</p>
+                    </li>
+                    <li class="content-list__item">
+                        <h2 class="title-2">Backend</h2>
+                        <p>Python, SQLite, MySQL</p>
+                    </li>
+                </ul>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://www.instagram.com/_ivantsbn/"><img src="./img/icons/instagram.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://github.com/Ivantsbn?tab=repositories"><img src="./img/icons/gitHub.svg" alt="Link"></a></li>
+                    <li class="social__item"><a href="https://www.linkedin.com/in/ivan-tsybin-98420a218/"><img src="./img/icons/linkedIn.svg" alt="Link"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2023 Created by Ivan Tsybin</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/canvas.js"></script>
+
+</body>
+</html>
